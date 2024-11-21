@@ -2,9 +2,9 @@ import assets from "../assets/assets"
 
 const Footer = () => {
     return (
-        <div className="pt-10 bg-[#1b1b1b] px-12 container overflow-hidden relative">
+        <div className="pt-10 bg-[#1b1b1b] px-12 overflow-hidden relative w-full">
 
-            <div className=" flex flex-col-reverse sm:flex-row min-h-96">
+            <div className=" flex flex-col-reverse sm:flex-row min-h-96 w-full">
                 {/* left side  */}
                 <div className="flex flex-col-reverse sm:flex-row gap-2 sm:gap-24 sm:w-1/2">
                     <img src={assets.logo_black} className="h-12 w-12" alt="" />
