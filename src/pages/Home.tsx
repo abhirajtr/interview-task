@@ -1,9 +1,9 @@
-import CommentsSection from "./CommentsSection"
-import Description from "./Description"
-import Features from "./Features"
-import ImagesSection from "./ImagesSection"
+import CommentsSection from "../components/CommentsSection"
+import Description from "../components/Description"
+import Features from "../components/Features"
+import ImagesSection from "../components/ImagesSection"
 
-const MainContent = () => {
+const Home = () => {
     return (
         <div className="py-10">
             <ImagesSection />
@@ -16,4 +16,4 @@ const MainContent = () => {
     )
 }
 
-export default MainContent
+export default Home;

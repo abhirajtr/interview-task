@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="pt-10 bg-[#1b1b1b] px-12 container overflow-hidden relative">
 
-            <div className=" flex flex-col-reverse sm:flex-row min-h-80">
+            <div className=" flex flex-col-reverse sm:flex-row min-h-96">
                 {/* left side  */}
                 <div className="flex flex-col-reverse sm:flex-row gap-2 sm:gap-24 sm:w-1/2">
                     <img src={assets.logo_black} className="h-12 w-12" alt="" />
@@ -44,28 +44,28 @@ const Footer = () => {
                         </div>
                         <p className="mb-6">Connect with us 🤝</p>
                         <div className="flex gap-3">
-                            <button className="bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
+                            <button className="hover:cursor-pointer bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
                                 <img
                                     src={assets.dribble_icon}
                                     alt="Icon"
                                     className="h-6 w-6"
                                 />
                             </button>
-                            <button className="bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
+                            <button className="hover:cursor-pointer bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
                                 <img
                                     src={assets.instagram_icon}
                                     alt="Icon"
                                     className="h-6 w-6"
                                 />
                             </button>
-                            <button className="bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
+                            <button className="hover:cursor-pointer bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
                                 <img
                                     src={assets.behance_icon}
                                     alt="Icon"
                                     className="h-6 w-6"
                                 />
                             </button>
-                            <button className="bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
+                            <button className="hover:cursor-pointer bg-transparent text-white w-12 h-12 flex justify-center items-center rounded-full border border-white/50">
                                 <img
                                     src={assets.mail_icon}
                                     alt="Icon"
@@ -76,8 +76,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-0 left-0 w-full">
-                <p className="transition-transform translate-y-[15rem]  font-bold text-white/10 text-[18rem] w-full text-center tracking-wider secular-one-regular scale-x-150">
+            <div className="absolute bottom-0 left-0 w-full transition-transform translate-y-[15rem]">
+                <p className=" font-bold text-white/10 text-[18rem] w-full text-center tracking-wider secular-one-regular scale-x-150">
                     uiwiki
                 </p>
             </div>
