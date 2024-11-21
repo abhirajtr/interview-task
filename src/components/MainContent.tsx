@@ -5,7 +5,7 @@ import ImagesSection from "./ImagesSection"
 
 const MainContent = () => {
     return (
-        <div className="">
+        <div className="py-10">
             <ImagesSection />
             <div className="py-10 grid sm:grid-cols-2 gap-x-8 gap-y-8">
                 <Description />

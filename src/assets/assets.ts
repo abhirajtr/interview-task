@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import logo_black from './logo_black.png';
 import profile_image from './profile_image.png';
 import figma_icon from './figma_icon.png';
 import search_icon from './search_icon.png';
@@ -15,9 +16,15 @@ import image8 from './image8.png';
 import check_circle from './check_circle.png';
 import download_icon from './download_icon.png';
 import comment_profile from './comment_profile.png';
+import arrow_right from './arrow_right.png';
+import dribble_icon from './dribbble_icon.png';
+import instagram_icon from './instagram_icon.png';
+import behance_icon from './behance_icon.png';
+import mail_icon  from './mail_icon.png';
 
 const assets = {
     logo,
+    logo_black,
     profile_image,
     search_icon,
     figma_icon,
@@ -34,6 +41,11 @@ const assets = {
     check_circle,
     download_icon,
     comment_profile,
+    arrow_right,
+    dribble_icon,
+    instagram_icon,
+    behance_icon,
+    mail_icon,
 }
 
 export default assets

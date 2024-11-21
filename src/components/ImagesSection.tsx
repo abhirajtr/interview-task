@@ -15,8 +15,8 @@ const ImagesSection = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 overflow-hidden py-10">
             {
-                images.map((item) => (
-                    <div className="h-50">
+                images.map((item, index) => (
+                    <div key={index} className="h-50">
                         <img src={item.image} alt="" className="w-full h-full object-cover" />
                     </div>
                 ))
