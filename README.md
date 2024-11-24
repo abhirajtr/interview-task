@@ -1,4 +1,4 @@
-##Frontend Interview Task
+## Frontend Interview Task
 This project is a task completed for an interview, based on a Figma design. It is built using React, Vite, and Tailwind CSS. The project includes locally stored images and icons.
 
 ## Table of Contents
