@@ -1,101 +1,43 @@
-Here's an improved version of your README file that you can copy:
-
 Frontend Interview Task
-📚 Project Overview
-This repository contains the frontend implementation for the interview task. The project is built using React (via Vite) and styled with TailwindCSS. The goal of the project is to create a responsive, reusable, and modern UI that works seamlessly across various screen sizes.
+This project is a task completed for an interview, based on a Figma design. It is built using React, Vite, and Tailwind CSS. The project includes locally stored images and icons.
 
-🛠️ Technologies Used
+## Table of Contents
 
-Framework: React (via Vite)
-Styling: TailwindCSS
-Icons/Assets: Managed with local and imported resources.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-📂 Folder Structure
+## Installation
 
-# Project Folder Structure
+To get a local copy up and running, follow these simple steps:
 
-.
-├── src/
-│ ├── assets/ # Static assets (images, icons)
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level components
-│ ├── App.tsx # Main App component
-│ └── main.tsx # Entry point for the app
-├── index.html # Main HTML file
-└── README.md # Documentation file
+1. **Clone the repository:**
 
-⚙️ Setup and Installation
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-Prerequisites
-Before you begin, make sure you have the following software installed:
+2. **Navigate to the project directory:**
 
-Node.js (version 16 or higher)
-npm or yarn
+   ```bash
+   cd interview-task
+   ```
 
-Clone the Repository
-To get started, clone the repository to your local machine:
+3. **Install dependencies:**
 
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+   ```bash
+   npm install
+   ```
 
+## Usage
 
-Here's an improved version of your README file that you can copy:
-
-Frontend Interview Task
-📚 Project Overview
-This repository contains the frontend implementation for the interview task. The project is built using React (via Vite) and styled with TailwindCSS. The goal of the project is to create a responsive, reusable, and modern UI that works seamlessly across various screen sizes.
-
-🛠️ Technologies Used
-
-Framework: React (via Vite)
-Styling: TailwindCSS
-Icons/Assets: Managed with local and imported resources.
-📂 Folder Structure
-
-bash
-Copy code
-.
-├── src/
-│   ├── assets/       # Static assets (images, icons)
-│   ├── components/   # Reusable UI components
-│   ├── pages/        # Page-level components
-│   ├── App.tsx       # Main App component
-│   └── main.tsx      # Entry point for the app
-├── index.html        # Main HTML file
-└── README.md         # Documentation file
-⚙️ Setup and Installation
-
-Prerequisites
-Before you begin, make sure you have the following software installed:
-
-Node.js (version 16 or higher)
-npm or yarn
-Clone the Repository
-To get started, clone the repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/abhirajtr/interview-task.git
-cd interview-task
-
-
-Install Dependencies
-Once the repository is cloned, you need to install the necessary dependencies. Run the following command:
-npm install
-
-Or, if you're using Yarn:
-yarn install
-
-Run the Development Server
-To run the project locally and view the development version of the site, start the Vite development server by running:
-
+To start the development server, run:
 npm run dev
 
-Or with Yarn:
+## Technologies Used
 
-yarn dev
-
-After the server is running, you can open the application in your browser at:
-http://localhost:5173
-
-This is the default port for Vite's development server.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast development build tool.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **TypeScript**: For type safety and better development experience.
