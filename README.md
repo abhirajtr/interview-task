@@ -1,11 +1,10 @@
-Frontend Interview Task
+##Frontend Interview Task
 This project is a task completed for an interview, based on a Figma design. It is built using React, Vite, and Tailwind CSS. The project includes locally stored images and icons.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 
 ## Installation
@@ -33,7 +32,9 @@ To get a local copy up and running, follow these simple steps:
 ## Usage
 
 To start the development server, run:
-npm run dev
+ ```bash
+ npm run dev
+ ```
 
 ## Technologies Used
 
